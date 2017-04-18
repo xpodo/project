@@ -36,17 +36,16 @@ and open the template in the editor.
             </money_maker>
             <utility>                
                 <file_seeker>5.0</file_seeker>
-                <file_hider>5.0</file_hider>
                 <analyzer>5.0</analyzer>
                 <file_encrypter>4.8</file_encrypter>
                 <file_derypter>4.8</file_derypter>
             </utility>
         </software>
         <hardware>
-            <cpu clocking="4400 Mhz">Darpel III Dual core</cpu>
-            <modem sonection_speed="225 Mbit">Double lasercable</modem>
-            <harddrive hdd_storage="320 Gb">Dual Topspin HD</harddrive>
-            <extern_hdd ext_storage="6.0 Gb">Garret AV8 Pro</extern_hdd>
+            <cpu clocking="4400">Darpel III Dual core</cpu>
+            <modem sonection_speed="225">Double lasercable</modem>
+            <harddrive hdd_storage="320">Dual Topspin HD</harddrive>
+            <extern_hdd ext_storage="6,0">Garret AV8 Pro</extern_hdd>
         </hardware>
         <hacked_ips>
             <slave name="NPC First Ypesteiner bank" spam="true"  warez="false" DDoS="false" assigned="spam">135.132.154.124</slave>
@@ -55,6 +54,191 @@ and open the template in the editor.
             <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam">33.53.184.126</slave>
             <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
             <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">81.73.86.255</slave> 
+        </hacked_ips>
+    </profil>
+    <profil>
+        <jmeno_savu pozice="2" ip="145.227.14.1">D3F4U1T</jmeno_savu>
+        <bank_account>
+            <account_money bank_ip="135.132.154.124" number="351262">953621</account_money>
+        </bank_account>
+        <software>
+            <offensive>
+                <firewall>5.7</firewall>
+                <waterwall>5.7</waterwall>
+                <pass_breaker>5.2</pass_breaker>
+                <DDoS_remote>1.0</DDoS_remote>
+            </offensive>
+            <defensive>
+                <ativirus>4.9</ativirus>
+                <file_hider>5.0</file_hider>
+            </defensive>
+            <virus>
+                <spam>4.9</spam>
+                <warez_virus>4.8</warez_virus>
+                <DDoS_virus>1.0</DDoS_virus>
+                <tracker>0.7</tracker>
+            </virus>
+            <money_maker>
+                <mailer>4.9</mailer>
+                <FTcash>4.8</FTcash>
+                <warez>0.4</warez>
+            </money_maker>
+            <utility>                
+                <file_seeker>5.0</file_seeker>
+                <analyzer>5.0</analyzer>
+                <file_encrypter>4.8</file_encrypter>
+                <file_derypter>4.8</file_derypter>
+            </utility>
+        </software>
+        <hardware>
+            <cpu clocking="4400">Darpel III Dual core</cpu>
+            <modem sonection_speed="1476">Dual Direct Satellite Connection</modem>
+            <harddrive hdd_storage="2080">StorageStar HD</harddrive>
+            <extern_hdd ext_storage="6,0">Garret AV8 Pro</extern_hdd>
+        </hardware>
+        <hacked_ips>
+            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="none">132.21.163.202</slave>
+            <slave name="NPC Network Anarchy Domain Registrar" spam="false"  warez="false" DDoS="false" assigned="none">225.99.248.46</slave>
+            <slave name="" spam="true"  warez="false" DDoS="true" assigned="ddos">33.53.184.126</slave>
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">135.201.134.59</slave>
+            <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">71.75.86.24</slave> 
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">71.75.86.24</slave> 
+        </hacked_ips>
+    </profil>
+    <profil>
+        <jmeno_savu pozice="3" ip="25.36.142.20">Big Bi*ch</jmeno_savu>
+        <bank_account>
+            <account_money bank_ip="135.132.154.124" number="315347">7235</account_money>
+        </bank_account>
+        <software>
+            <offensive>
+                <firewall>0.6</firewall>
+                <waterwall>0.7</waterwall>
+                <pass_breaker>0.3</pass_breaker>
+                <DDoS_remote>0.0</DDoS_remote>
+            </offensive>
+            <defensive>
+                <ativirus>1.1</ativirus>
+                <file_hider>0.0</file_hider>
+            </defensive>
+            <virus>
+                <spam>0.3</spam>
+                <warez_virus>0.7</warez_virus>
+                <DDoS_virus>0.0</DDoS_virus>
+                <tracker>0.0</tracker>
+            </virus>
+            <money_maker>
+                <mailer>1.1</mailer>
+                <FTcash>0.8</FTcash>
+                <warez>0.4</warez>
+            </money_maker>
+            <utility>                
+                <file_seeker>0.0</file_seeker>
+                <analyzer>0.0</analyzer>
+                <file_encrypter>0.0</file_encrypter>
+                <file_derypter>0.0</file_derypter>
+            </utility>
+        </software>
+        <hardware>
+            <cpu clocking="1250">Darpel I</cpu>
+            <modem sonection_speed="4">Cable</modem>
+            <harddrive hdd_storage="30">Topspin HD</harddrive>
+            <extern_hdd ext_storage="0,3">Garret Travel</extern_hdd>
+        </hardware>
+        <hacked_ips>
+            <slave name="NPC" spam="false"  warez="false" DDoS="false" assigned="false">81.73.86.255</slave> 
+        </hacked_ips>
+    </profil> 
+    <profil>
+        <jmeno_savu pozice="4" ip="1.2.51.254">N00B</jmeno_savu>
+        <bank_account>
+            <account_money bank_ip="135.132.154.124" number="321766">2100</account_money>
+            <account_money bank_ip="63.203.160.21" number="211031">314</account_money>
+            <account_money bank_ip="12.45.34.34" number="134679">12</account_money>
+        </bank_account>
+        <software>
+            <offensive>
+                <firewall>0.4</firewall>
+                <waterwall>0.4</waterwall>
+                <pass_breaker>0.</pass_breaker>
+                <DDoS_remote>0.0</DDoS_remote>
+            </offensive>
+            <defensive>
+                <ativirus>0.</ativirus>
+                <file_hider>0.0</file_hider>
+            </defensive>
+            <virus>
+                <spam>0.0</spam>
+                <warez_virus>0.0</warez_virus>
+                <DDoS_virus>0.0</DDoS_virus>
+                <tracker>0.0</tracker>
+            </virus>
+            <money_maker>
+                <mailer>0.0</mailer>
+                <FTcash>0.0</FTcash>
+                <warez>0.0</warez>
+            </money_maker>
+            <utility>                
+                <file_seeker>0.0</file_seeker>
+                <analyzer>0.0</analyzer>
+                <file_encrypter>0.0</file_encrypter>
+                <file_derypter>0.0</file_derypter>
+            </utility>
+        </software>
+        <hardware>
+            <cpu clocking="500">Junkcpu</cpu>
+            <modem sonection_speed="4">Cable</modem>
+            <harddrive hdd_storage="5">Topspin HD</harddrive>
+            <extern_hdd ext_storage="0.1">e-Nie Lite Repack</extern_hdd>
+        </hardware>
+        <hacked_ips>
+        </hacked_ips>
+    </profil>
+    <profil>
+        <jmeno_savu pozice="5" ip="11.222.167.5">Dave</jmeno_savu>
+        <bank_account>
+            <account_money bank_ip="63.203.160.21" number="634167">246752</account_money>
+        </bank_account>
+        <software>
+            <offensive>
+                <firewall>1.6</firewall>
+                <waterwall>1.6</waterwall>
+                <pass_breaker>2.6</pass_breaker>
+                <DDoS_remote>0.6</DDoS_remote>
+            </offensive>
+            <defensive>
+                <ativirus>1.6</ativirus>
+                <file_hider>5.0</file_hider>
+            </defensive>
+            <virus>
+                <spam>4.9</spam>
+                <warez_virus>4.8</warez_virus>
+                <DDoS_virus>1.0</DDoS_virus>
+                <tracker>0.7</tracker>
+            </virus>
+            <money_maker>
+                <mailer>1.7</mailer>
+                <FTcash>2.8</FTcash>
+                <warez>0.7</warez>
+            </money_maker>
+            <utility>                
+                <file_seeker>1.5</file_seeker>
+                <analyzer>0.4</analyzer>
+                <file_encrypter>2.3</file_encrypter>
+                <file_derypter>2.4</file_derypter>
+            </utility>
+        </software>
+        <hardware>
+            <cpu clocking="2000">Darpel II</cpu>
+            <modem sonection_speed="24">ADSL 2+</modem>
+            <harddrive hdd_storage="160">Topspin HD</harddrive>
+            <extern_hdd ext_storage="3.0">e-Nie Triple Business</extern_hdd>
+        </hardware>
+        <hacked_ips>
+            <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam">133.152.210.6</slave>
+            <slave name="" spam="true"  warez="true" DDoS="false" assigned="spam">104.142.246.46</slave>
+            <slave name="NPC Bank of Destern" spam="true"  warez="false" DDoS="false" assigned="spam">12.45.34.34</slave> 
         </hacked_ips>
     </profil>
 </save_hry>
