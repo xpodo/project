@@ -49,7 +49,7 @@ and open the template in the editor.
         </hardware>
         <hacked_ips>
             <slave name="NPC First Ypesteiner bank" spam="true"  warez="false" DDoS="false" assigned="spam">135.132.154.124</slave>
-            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="none">132.21.163.202</slave>
+            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="">132.21.163.202</slave>
             <slave name="NPC Network Anarchy Domain Registrar" spam="true"  warez="true" DDoS="false" assigned="warez">225.99.248.46</slave>
             <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam">33.53.184.126</slave>
             <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
@@ -97,8 +97,8 @@ and open the template in the editor.
             <extern_hdd ext_storage="6.0">Garret AV8 Pro</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="none">132.21.163.202</slave>
-            <slave name="NPC Network Anarchy Domain Registrar" spam="false"  warez="false" DDoS="false" assigned="none">225.99.248.46</slave>
+            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="">132.21.163.202</slave>
+            <slave name="NPC Network Anarchy Domain Registrar" spam="false"  warez="false" DDoS="false" assigned="">225.99.248.46</slave>
             <slave name="" spam="true"  warez="false" DDoS="true" assigned="ddos">33.53.184.126</slave>
             <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">135.201.134.59</slave>
             <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
@@ -147,7 +147,7 @@ and open the template in the editor.
             <extern_hdd ext_storage="0.3">Garret Travel</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="NPC" spam="false"  warez="false" DDoS="false" assigned="false">81.73.86.255</slave> 
+            <slave name="NPC" spam="false"  warez="false" DDoS="false" assigned="">81.73.86.255</slave> 
         </hacked_ips>
     </profil> 
     <profil>
