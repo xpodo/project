@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="save_hry">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="profil" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="jmeno_savu">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="pozice" type="xs:int"/>
+                                            <xs:attribute name="ip" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="bank_account">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="account_money" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:int">
+                                                        <xs:attribute name="bank_ip" type="xs:string"/>
+                                                        <xs:attribute name="number" type="xs:int"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="software">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="offensive">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="firewall" type="xs:double"/>
+                                                    <xs:element name="waterwall" type="xs:double"/>
+                                                    <xs:element name="pass_breaker" type="xs:double"/>
+                                                    <xs:element name="DDoS_remote" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="defensive">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ativirus" type="xs:double"/>
+                                                    <xs:element name="file_hider" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="virus">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="spam" type="xs:double"/>
+                                                    <xs:element name="warez_virus" type="xs:double"/>
+                                                    <xs:element name="DDoS_virus" type="xs:double"/>
+                                                    <xs:element name="tracker" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="money_maker">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="mailer" type="xs:double"/>
+                                                    <xs:element name="FTcash" type="xs:double"/>
+                                                    <xs:element name="warez" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="utility">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="file_seeker" type="xs:double"/>
+                                                    <xs:element name="analyzer" type="xs:double"/>
+                                                    <xs:element name="file_encrypter" type="xs:double"/>
+                                                    <xs:element name="file_derypter" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="hardware">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cpu">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="clocking" type="xs:int"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="modem">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="connection_speed" type="xs:int"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>            
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="harddrive">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="hdd_storage" type="xs:int"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="extern_hdd">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="ext_storage" type="xs:double"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="hacked_ips">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="slave" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="name" type="xs:string"/>
+                                                        <xs:attribute name="spam" type="xs:string"/>
+                                                        <xs:attribute name="warez" type="xs:string"/>
+                                                        <xs:attribute name="DDoS" type="xs:string"/>
+                                                        <xs:attribute name="assigned" type="xs:string"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
