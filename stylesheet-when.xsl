@@ -13,14 +13,15 @@
         <xsl:for-each select="profil">
             {
             "Hrac":"<xsl:value-of select="jmeno_savu"/>",
-            "Hacknute IP":
+            "Hacknute pocitace s aktivnimi viry":
             <xsl:for-each select="hacked_ips/slave">
                 <xsl:choose>
                 <xsl:when test="@assigned!=''">
-                    "Jmeno":"<xsl:value-of select="@name"/>", "Aktivni virus":"<xsl:value-of select="@assigned"/>",
+                    "Jmeno":"<xsl:value-of select="@name"/>", "IP":"<xsl:value-of select="@ip"/>", "Aktivni virus":"<xsl:value-of select="@assigned"/>",
                 </xsl:when>
                 </xsl:choose>
-            </xsl:for-each>}<xsl:if test="position() != last()">,</xsl:if>
+            </xsl:for-each>
+            }<xsl:if test="position() != last()">,</xsl:if>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>

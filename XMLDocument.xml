@@ -9,17 +9,17 @@ and open the template in the editor.
     <profil>
         <jmeno_savu pozice="1" ip="211.146.190.60">H4X0R</jmeno_savu>
         <bank_account>
-            <account_money bank_ip="135.132.154.124" number="422261">55965</account_money>
-            <account_money bank_ip="63.203.160.21" number="279503">763</account_money>
+            <account bank_ip="135.132.154.124" number="422261" money="55965"/>
+            <account bank_ip="63.203.160.21" number="279503" money="763"/>
         </bank_account>
         <software>
             <offensive>
-                <firewall>5.7</firewall>
                 <waterwall>5.7</waterwall>
                 <pass_breaker>5.2</pass_breaker>
                 <DDoS_remote>1.0</DDoS_remote>
             </offensive>
             <defensive>
+                <firewall>5.7</firewall>
                 <ativirus>4.9</ativirus>
                 <file_hider>5.0</file_hider>
             </defensive>
@@ -48,18 +48,18 @@ and open the template in the editor.
             <extern_hdd ext_storage="6.0">Garret AV8 Pro</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="NPC First Ypesteiner bank" spam="true"  warez="false" DDoS="false" assigned="spam">135.132.154.124</slave>
-            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="">132.21.163.202</slave>
-            <slave name="NPC Network Anarchy Domain Registrar" spam="true"  warez="true" DDoS="false" assigned="warez">225.99.248.46</slave>
-            <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam">33.53.184.126</slave>
-            <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
-            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">81.73.86.255</slave> 
+            <slave name="NPC First Ypesteiner bank" spam="true"  warez="false" DDoS="false" assigned="spam" ip="135.132.154.124"/>
+            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="" ip="132.21.163.202"/>
+            <slave name="NPC Network Anarchy Domain Registrar" spam="true"  warez="true" DDoS="false" assigned="warez" ip="225.99.248.46"/>
+            <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam" ip="33.53.184.126"/>
+            <slave name="" spam="false"  warez="false" DDoS="false" assigned="" ip="69.144.46.76"/>
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam" ip="81.73.86.255"/>
         </hacked_ips>
     </profil>
     <profil>
         <jmeno_savu pozice="2" ip="145.227.14.1">D3F4U1T</jmeno_savu>
         <bank_account>
-            <account_money bank_ip="135.132.154.124" number="351262">953621</account_money>
+            <account bank_ip="135.132.154.124" number="351262" money="953621"/>
         </bank_account>
         <software>
             <offensive>
@@ -97,19 +97,19 @@ and open the template in the editor.
             <extern_hdd ext_storage="6.0">Garret AV8 Pro</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="">132.21.163.202</slave>
-            <slave name="NPC Network Anarchy Domain Registrar" spam="false"  warez="false" DDoS="false" assigned="">225.99.248.46</slave>
-            <slave name="" spam="true"  warez="false" DDoS="true" assigned="ddos">33.53.184.126</slave>
-            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">135.201.134.59</slave>
-            <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
-            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">71.75.86.24</slave> 
-            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam">71.75.86.24</slave> 
+            <slave name="NPC My fav. websites"      spam="false" warez="false" DDoS="false" assigned="" ip="132.21.163.202"/>
+            <slave name="NPC Network Anarchy Domain Registrar" spam="false"  warez="false" DDoS="false" assigned="" ip="225.99.248.46"/>
+            <slave name="" spam="true"  warez="false" DDoS="true" assigned="ddos" ip="33.53.184.126"/>
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam" ip="135.201.134.59"/>
+            <slave name="" spam="false"  warez="false" DDoS="false" assigned="" ip="69.144.46.76"/>
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam" ip="71.75.86.24"/>
+            <slave name="NPC" spam="true"  warez="false" DDoS="false" assigned="spam" ip="71.75.86.24"/>
         </hacked_ips>
     </profil>
     <profil>
         <jmeno_savu pozice="3" ip="25.36.142.20">Big Bi*ch</jmeno_savu>
         <bank_account>
-            <account_money bank_ip="135.132.154.124" number="315347">7235</account_money>
+            <account bank_ip="135.132.154.124" number="315347" money="7235"/>
         </bank_account>
         <software>
             <offensive>
@@ -147,15 +147,15 @@ and open the template in the editor.
             <extern_hdd ext_storage="0.3">Garret Travel</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="NPC" spam="false"  warez="false" DDoS="false" assigned="">81.73.86.255</slave> 
+            <slave name="NPC" spam="false"  warez="false" DDoS="false" assigned="" ip="81.73.86.255"/>
         </hacked_ips>
     </profil> 
     <profil>
         <jmeno_savu pozice="4" ip="1.2.51.254">N00B</jmeno_savu>
         <bank_account>
-            <account_money bank_ip="135.132.154.124" number="321766">2100</account_money>
-            <account_money bank_ip="63.203.160.21" number="211031">314</account_money>
-            <account_money bank_ip="12.45.34.34" number="134679">12</account_money>
+            <account bank_ip="135.132.154.124" number="321766" money="2100"/>
+            <account bank_ip="63.203.160.21" number="211031" money="314"/>
+            <account bank_ip="12.45.34.34" number="134679" money="12"/>
         </bank_account>
         <software>
             <offensive>
@@ -193,13 +193,13 @@ and open the template in the editor.
             <extern_hdd ext_storage="0.1">e-Nie Lite Repack</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="" spam="false"  warez="false" DDoS="false" assigned="">69.144.46.76</slave>
+            <slave name="" spam="false"  warez="false" DDoS="false" assigned="" ip="69.144.46.76"/>
         </hacked_ips>
     </profil>
     <profil>
         <jmeno_savu pozice="5" ip="11.222.167.5">Dave</jmeno_savu>
         <bank_account>
-            <account_money bank_ip="63.203.160.21" number="634167">246752</account_money>
+            <account bank_ip="63.203.160.21" number="634167" money="246752"/>
         </bank_account>
         <software>
             <offensive>
@@ -237,9 +237,9 @@ and open the template in the editor.
             <extern_hdd ext_storage="3.0">e-Nie Triple Business</extern_hdd>
         </hardware>
         <hacked_ips>
-            <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam">133.152.210.6</slave>
-            <slave name="" spam="true"  warez="true" DDoS="false" assigned="spam">104.142.246.46</slave>
-            <slave name="NPC Bank of Destern" spam="true"  warez="false" DDoS="false" assigned="spam">12.45.34.34</slave> 
+            <slave name="" spam="true"  warez="false" DDoS="true" assigned="spam" ip="133.152.210.6"/>
+            <slave name="" spam="true"  warez="true" DDoS="false" assigned="spam" ip="104.142.246.46"/>
+            <slave name="NPC Bank of Destern" spam="true"  warez="false" DDoS="false" assigned="spam" ip="12.45.34.34"/>
         </hacked_ips>
     </profil>
 </save_hry>

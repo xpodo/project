@@ -1,43 +1,48 @@
 
             {
             "Hrac":"H4X0R",
-            "Hacknute IP":
+            "Hacknute pocitace s aktivnimi viry":
             
-                    "Jmeno":"NPC First Ypesteiner bank", "Aktivni virus":"spam",
+                    "Jmeno":"NPC First Ypesteiner bank", "IP":"135.132.154.124", "Aktivni virus":"spam",
                 
-                    "Jmeno":"NPC Network Anarchy Domain Registrar", "Aktivni virus":"warez",
+                    "Jmeno":"NPC Network Anarchy Domain Registrar", "IP":"225.99.248.46", "Aktivni virus":"warez",
                 
-                    "Jmeno":"", "Aktivni virus":"spam",
+                    "Jmeno":"", "IP":"33.53.184.126", "Aktivni virus":"spam",
                 
-                    "Jmeno":"NPC", "Aktivni virus":"spam",
-                },
+                    "Jmeno":"NPC", "IP":"81.73.86.255", "Aktivni virus":"spam",
+                
+            },
             {
             "Hrac":"D3F4U1T",
-            "Hacknute IP":
+            "Hacknute pocitace s aktivnimi viry":
             
-                    "Jmeno":"", "Aktivni virus":"ddos",
+                    "Jmeno":"", "IP":"33.53.184.126", "Aktivni virus":"ddos",
                 
-                    "Jmeno":"NPC", "Aktivni virus":"spam",
+                    "Jmeno":"NPC", "IP":"135.201.134.59", "Aktivni virus":"spam",
                 
-                    "Jmeno":"NPC", "Aktivni virus":"spam",
+                    "Jmeno":"NPC", "IP":"71.75.86.24", "Aktivni virus":"spam",
                 
-                    "Jmeno":"NPC", "Aktivni virus":"spam",
-                },
+                    "Jmeno":"NPC", "IP":"71.75.86.24", "Aktivni virus":"spam",
+                
+            },
             {
             "Hrac":"Big Bi*ch",
-            "Hacknute IP":
+            "Hacknute pocitace s aktivnimi viry":
+            
             },
             {
             "Hrac":"N00B",
-            "Hacknute IP":
+            "Hacknute pocitace s aktivnimi viry":
+            
             },
             {
             "Hrac":"Dave",
-            "Hacknute IP":
+            "Hacknute pocitace s aktivnimi viry":
             
-                    "Jmeno":"", "Aktivni virus":"spam",
+                    "Jmeno":"", "IP":"133.152.210.6", "Aktivni virus":"spam",
                 
-                    "Jmeno":"", "Aktivni virus":"spam",
+                    "Jmeno":"", "IP":"104.142.246.46", "Aktivni virus":"spam",
                 
-                    "Jmeno":"NPC Bank of Destern", "Aktivni virus":"spam",
-                }
+                    "Jmeno":"NPC Bank of Destern", "IP":"12.45.34.34", "Aktivni virus":"spam",
+                
+            }

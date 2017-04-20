@@ -19,12 +19,13 @@
                             <xs:element name="bank_account">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="account_money" maxOccurs="unbounded">
+                                        <xs:element name="account" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:simpleContent>
-                                                    <xs:extension base="xs:int">
+                                                    <xs:extension base="xs:string">
                                                         <xs:attribute name="bank_ip" type="xs:string"/>
                                                         <xs:attribute name="number" type="xs:int"/>
+                                                        <xs:attribute name="money" type="xs:int"/>
                                                     </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
@@ -38,7 +39,6 @@
                                         <xs:element name="offensive">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="firewall" type="xs:double"/>
                                                     <xs:element name="waterwall" type="xs:double"/>
                                                     <xs:element name="pass_breaker" type="xs:double"/>
                                                     <xs:element name="DDoS_remote" type="xs:double"/>
@@ -48,6 +48,7 @@
                                         <xs:element name="defensive">
                                             <xs:complexType>
                                                 <xs:sequence>
+                                                    <xs:element name="firewall" type="xs:double"/>
                                                     <xs:element name="ativirus" type="xs:double"/>
                                                     <xs:element name="file_hider" type="xs:double"/>
                                                 </xs:sequence>
@@ -139,6 +140,7 @@
                                                         <xs:attribute name="warez" type="xs:string"/>
                                                         <xs:attribute name="DDoS" type="xs:string"/>
                                                         <xs:attribute name="assigned" type="xs:string"/>
+                                                        <xs:attribute name="ip" type="xs:string"/>
                                                     </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
