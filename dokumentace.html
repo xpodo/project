@@ -1,0 +1,612 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Nastaveni savu fiktivni hry</title>     
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Nastaveni savu hackovací hry</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Uvod">Úvod</a></li>
+                    <li><a href="#Metodika">Metodika</a></li>
+                    <li><a href="#Popis_elementu_a_atributu">Popis elementů a atributů</a>
+                        <ul>
+                            <li><a href="#Obecne_elementy_a_atributy">Obecné elementy a atributy</a>
+                                <ul>
+                                    <li><a href="#Obecne_elementy">Obecné elementy</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#Bank">Bankovní účty - elementy a atributy</a>
+                                <ul>
+                                    <li><a href="#Bank_elementy">Bankovní účty - elementy</a></li>
+                                    <li><a href="#Bank_atributy">Bankovní účty - atributy</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#Software">Software - elementy a atributy</a>
+                                <ul>
+                                    <li><a href="#Software_elementy">Software - elementy</a>
+                                        <ul>
+                                            <li><a href="#Offensive">Offensive - elementy a atributy</a>
+                                                <ul>
+                                                    <li><a href="#Offensive_elementy">Offensive - elementy</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#Defensive">Defensive - elementy a atributy</a>
+                                                <ul>
+                                                    <li><a href="#Defensive_elementy">Defensive - elementy</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#Virus">Virus - elementy a atributy</a>
+                                                <ul>
+                                                    <li><a href="#Virus_elementy">Virus - elementy</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#Money_maker">Money_maker - elementy a atributy</a>
+                                                <ul>
+                                                    <li><a href="#Money_maker_elementy">Money_maker - elementy</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#Utility">Utility - elementy a atributy</a>
+                                                <ul>
+                                                    <li><a href="#Utility_elementy">Utility - elementy</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#Hardware">Hardware - elementy a atributy</a>
+                                <ul>
+                                    <li><a href="#Hardware_elementy">Hardware - elementy</a></li>
+                                    <li><a href="#Hardware_atributy">Hardware - atributy</a></li>                                     
+                                </ul>
+                            </li>
+                            <li><a href="#Hacked_ip">Hacked_ip - elementy a atributy</a>
+                                <ul>
+                                    <li><a href="#Hacked_ip_elementy">Hacked_ip - elementy</a></li>
+                                    <li><a href="#Hacked_ip_atributy">Hacked_ip - atributy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#Popis_transformace">Popis transformace</a></li>
+                    <li><a href="#Zaver">Závěr</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <section id="Uvod">
+                    <h2>Úvod</h2>
+                    <p>V techto souborech je uložen postup hráče fiktivní hackovací hrou. Přesněji řečeno informace o jeho bankovních účtech, získaném softwaru a hardwaru a nahackovaných počítačím.</p>
+                    <p>Rozhodl jsem se pro toto téma, protože zrovna podobnou hraji a přišlo mi to zajímavé</p>
+                </section>
+                <section id="Metodika">
+                    <h2>Metodika</h2>
+                    <p>Při práci na tomto projektu jsem všechny soubory psal v programu <a href="https://netbeans.org/">Netbeans</a>, který je zdarma ke stažení a dají se v něm psát jak soubory xml, tak i xsl, xsd a i html a mnoho dalších. Pro testování tohoto .html souboru jsem využíval 
+                        <a href="https://www.google.com/chrome">Google Chrome</a>.</p>
+                    <p>Jako zdroj informací jsem využíval prezentace přístupné na školním systému Moodle a také rady kamarádů, kteří jsou v tomto ohledu více zkušenější než já.</p>
+                </section>
+                <section id="Popis_elementu_a_atributu">
+
+                    <h2>Popis elementů a atributů</h2>
+                    <h3 id="Obecne_elementy_a_atributy">Obecné elementy a atributy</h3>
+                    <h4 id="Obecne_elementy">Obecné elementy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>jmeno_savu</td>
+                            <td>pozice, ip</td>
+                            <td>Obsahuje pozici uložení, ip adresu uživatele a jméno</td>
+                            <td>xs:complexType</td>
+                            <td>Žádné</td>
+                        </tr>
+                        <tr>
+                            <td>bank_account</td>
+                            <td>žádné</td>
+                            <td>Obsahuje všechny bankovní účty uživatele</td>
+                            <td>xs:complexType</td>
+                            <td>Žádné</td>
+                        </tr>   
+                        <tr>
+                            <td>software</td>
+                            <td>žádné</td>
+                            <td>Obsahuje seznam zízkaného softwaru a jeho verze</td>
+                            <td>xs:complexType</td>
+                            <td>Žádné</td>
+                        </tr>
+                        <tr>
+                            <td>hardware</td>
+                            <td>žádné</td>
+                            <td>Obsahuje seznam zízkaného hardware a jeho název</td>
+                            <td>xs:complexType</td>
+                            <td>Žádné</td>
+                        </tr>
+                        <tr>
+                            <td>hacked_ip</td>
+                            <td>žádné</td>
+                            <td>Obsahuje seznam všech ip adres ke kterým má hráč přídstup</td>
+                            <td>xs:complexType</td>
+                            <td>Žádné</td>
+                        </tr>         
+                    </table>
+
+                    <h3 id="Bank">Bankovní účty - elementy a atributy</h3>
+                    <h4 id="Bank_elementy">Bankovní účty - elementy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>account</td>
+                            <td>bank_ip, number, money</td>
+                            <td>Popois bankovního účtu</td>
+                            <td>xs:simpleContent</td>
+                            <td>vše požadováno</td>
+                        </tr>
+                    </table>
+                    <h4 id="Bank_atributy">Bankovní účty - atributy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atribut</th>
+                            <th>Popis atributů</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>account</td>
+                            <td>bank_ip</td>
+                            <td>IP adresa banky</td>
+                            <td>xs:string</td>
+                            <td>požadováno</td>
+                        </tr>                        
+                        <tr>
+                            <td>account</td>
+                            <td>number</td>
+                            <td>Číslo účtu</td>
+                            <td>xs:int</td>
+                            <td>požadováno</td>
+                        </tr>
+                        <tr>
+                            <td>account</td>
+                            <td>money</td>
+                            <td>Kolik je na účtu</td>
+                            <td>xs:int</td>
+                            <td>požadováno</td>
+                        </tr>
+                    </table>
+
+                    <h3 id="Software">Software - elementy a atributy</h3>
+                    <h4 id="Software_elementy">Software - elementy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>offensive</td>
+                            <td>nic</td>
+                            <td>Útočné programy (verze)</td>
+                            <td>xs:complexType</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>defensive</td>
+                            <td>nic</td>
+                            <td>Obranné programy (verze)</td>
+                            <td>xs:complexType</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>virus</td>
+                            <td>nic</td>
+                            <td>Viry (verze)</td>
+                            <td>xs:complexType</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>money_maker</td>
+                            <td>nic</td>
+                            <td>Programy vydělávající díky virům (verze)</td>
+                            <td>xs:complexType</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>utility</td>
+                            <td>nic</td>
+                            <td>Pomocné programy, které nejsou vyžadovány (verze)</td>
+                            <td>xs:complexType</td>
+                            <td>přesně 1</td>
+                        </tr>
+                    </table>
+
+                    <h5 id="Offensive">Offensive - elementy a atributy</h5>
+                    <h6 id="Offensive_elementy">Offensive - elementy</h6>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>waterwall</td>
+                            <td>nic</td>
+                            <td>Program na obejití firewallu</td>
+                            <td>xs:double</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>pass_breaker</td>
+                            <td>nic</td>
+                            <td>Prolamovač hesel</td>
+                            <td>xs:double</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>DDoS_remote</td>
+                            <td>nic</td>
+                            <td>Ovládací program DDoS útoku</td>
+                            <td>xs:double</td>
+                            <td>žádné</td>
+                        </tr>
+                    </table>
+
+                    <h5 id="Defensive">Defensive - elementy a atributy</h5>
+                    <h6 id="Defensive_elementy">Defensive - elementy</h6>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>firewall</td>
+                            <td>nic</td>
+                            <td>Krom hesla jediná obrana</td>
+                            <td>xs:double</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>antivirus</td>
+                            <td>nic</td>
+                            <td>Ovládací program DDoS útoku</td>
+                            <td>xs:double</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>file_hider</td>
+                            <td>nic</td>
+                            <td>Skrytí souborů. Jsou poté viditelné pouze pro dostatečně vyspělé technologie file_seeker</td>
+                            <td>xs:double</td>
+                            <td>žádné</td>
+                        </tr>
+                    </table>
+
+                    <h5 id="Virus">Virus - elementy a atributy</h5>
+                    <h6 id="Virus_elementy">Virus - elementy</h6>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>spam</td>
+                            <td>nic</td>
+                            <td>Zasílá maily z infikovaného počítače</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>warez_virus</td>
+                            <td>nic</td>
+                            <td>Slouží k distribuci warezu</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>DDoS_virus</td>
+                            <td>nic</td>
+                            <td>Díky tomuto viru se z infikovaného počítače, provede útok na jiný</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>tracker</td>
+                            <td>nic</td>
+                            <td>Slouží k hledání IP adres</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                    </table>
+
+                    <h5 id="Money_maker">Money_maker - elementy a atributy</h5>
+                    <h6 id="Money_maker_elementy">Money_maker - elementy</h6>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>mailer</td>
+                            <td>nic</td>
+                            <td>Inkasuje peníze ze zaslaných mailů</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>FTcash</td>
+                            <td>nic</td>
+                            <td>Inkasuje peníze ze staženého warezu</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>warez</td>
+                            <td>nic</td>
+                            <td>Soubor který se stahuje díky warezu</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                    </table>
+
+                    <h5 id="Utility">Utility - elementy a atributy</h5>
+                    <h6 id="Utility_elementy">Utility - elementy</h6>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>file_seeker</td>
+                            <td>nic</td>
+                            <td>Odhalí skryté soubory</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>analyzer</td>
+                            <td>nic</td>
+                            <td>Zjistí technické parametry počítače, na kterém je spušťen</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>file_encrypter</td>
+                            <td>nic</td>
+                            <td>Zašifrovávač souborů</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>file_decrypter</td>
+                            <td>nic</td>
+                            <td>Dešifrování souborů</td>
+                            <td>xs:double</td>
+                            <td>přesně 1</td>
+                        </tr>
+                    </table>
+
+                    <h3 id="Hardware">Hardware - elementy a atributy</h3>
+                    <h4 id="Hardware_elementy">Hardware - elementy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>cpu</td>
+                            <td>clocking</td>
+                            <td>Obsahuje název CPU</td>
+                            <td>xs:string</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>modem</td>
+                            <td>connection_speed</td>
+                            <td>Obsahuje název modemu</td>
+                            <td>xs:string</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>harddrive</td>
+                            <td>hdd_storage</td>
+                            <td>Obsahuje název disku</td>
+                            <td>xs:string</td>
+                            <td>přesně 1</td>
+                        </tr>
+                        <tr>
+                            <td>extern_hdd</td>
+                            <td>ext_storage</td>
+                            <td>Obsahuje název externího disku</td>
+                            <td>xs:string</td>
+                            <td>přesně 1</td>
+                        </tr>
+                    </table>
+                    <h4 id="Hardware_atributy">Hardware - atributy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atribut</th>
+                            <th>Popis atributů</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>cpu</td>
+                            <td>clocking</td>
+                            <td>Přetaktování CPU</td>
+                            <td>xs:int</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>modem</td>
+                            <td>connection_speed</td>
+                            <td>Rychlost připojení</td>
+                            <td>xs:int</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>harddrive</td>
+                            <td>hdd_storage</td>
+                            <td>Velikost disku</td>
+                            <td>xs:int</td>
+                            <td>žádné</td>
+                        </tr>
+                        <tr>
+                            <td>extern_hdd</td>
+                            <td>ext_storage</td>
+                            <td>Velikost externího disku</td>
+                            <td>xs:int</td>
+                            <td>žádné</td>
+                        </tr>
+                    </table>
+
+                    <h3 id="Hacked_ip">Hacked_ip - elementy a atributy</h3>
+                    <h4 id="Hacked_ip_elementy">Hacked_ip - elementy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atributy</th>
+                            <th>Popis elementu</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>slave</td>
+                            <td>name, spam, warez, DDoS, assigned, ip</td>
+                            <td>Seznam všech nahackovaných počítačů</td>
+                            <td>xs:complexType</td>
+                            <td>žádné</td>
+                        </tr>
+                    </table>
+                    <h4 id="Hacked_ip_atributy">Hacked_ip - atributy</h4>
+                    <table border="1">
+                        <tr>
+                            <th>Element</th>
+                            <th>Atribut</th>
+                            <th>Popis atributů</th>
+                            <th>Type</th>
+                            <th>Omezení</th>
+                        </tr>
+                        <tr>
+                            <td>slave</td>
+                            <td>name</td>
+                            <td>Název počítače, pokud prázdné , jde o počítač hráče</td>
+                            <td>xs:string</td>
+                            <td>požadováno</td>
+                        </tr>  
+                        <tr>
+                            <td>slave</td>
+                            <td>spam</td>
+                            <td>Zda je na počítači nainstalován spam virus</td>
+                            <td>xs:boolean</td>
+                            <td>požadováno</td>
+                        </tr>  
+                        <tr>
+                            <td>slave</td>
+                            <td>warez</td>
+                            <td>Zda je na počítači nainstalován warez virus</td>
+                            <td>xs:boolean</td>
+                            <td>požadováno</td>
+                        </tr>  
+                        <tr>
+                            <td>slave</td>
+                            <td>DDoS</td>
+                            <td>Zda je na počítači nainstalován DDoS virus</td>
+                            <td>xs:boolean</td>
+                            <td>požadováno</td>
+                        </tr>  
+                        <tr>
+                            <td>slave</td>
+                            <td>assigned</td>
+                            <td>Název spuštěného viru</td>
+                            <td>xs:string</td>
+                            <td>požadováno</td>
+                        </tr>  
+                        <tr>
+                            <td>slave</td>
+                            <td>ip</td>
+                            <td>IP počítače</td>
+                            <td>xs:string</td>
+                            <td>požadováno</td>
+                        </tr>  
+                    </table>
+                </section>
+                
+                <section id="Popis_transformace">
+                    <h2>Popis transformace</h2>
+                    <p>První transformace vypíše všechny údej o všech uživatelích. Druhá transformace vypíše uživatele a jeho aktivní viry na počítači ostatních.</p>
+
+                </section>
+                <section id="Zaver">
+                    <h2>Závěr</h2>
+                    <p>Práce na tomto projektu byla zábavná a částečně i nová zkušenost. Sice některé části byly pouze strojová práce, člověk se alespoň naučil něco nového.</p>
+
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <p>David Podoljak, Pondělí 12:15, lichý</p>
+        </footer>
+    </body>
+</html>
+
+
+<!--Obsahuje následující elementy
+◦ main, head, title, header, nav,
+section, article, footer, p, table, ul,
+li, a
+
+Struktura dokumentace
+◦ Název
+◦ Obsah s odkazy
+◦ Úvod – o čem to je.
+◦ Metodika (použité nástroje,…)
+◦ Popis elementů a atributů (proč, co
+představují)
+◦ Popis transformace
+◦ …
+◦ Závěr
+◦ Patička (autor atd.)-->

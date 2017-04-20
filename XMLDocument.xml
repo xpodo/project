@@ -63,12 +63,12 @@ and open the template in the editor.
         </bank_account>
         <software>
             <offensive>
-                <firewall>5.7</firewall>
                 <waterwall>5.7</waterwall>
                 <pass_breaker>5.2</pass_breaker>
                 <DDoS_remote>1.0</DDoS_remote>
             </offensive>
             <defensive>
+                <firewall>5.7</firewall>
                 <ativirus>4.9</ativirus>
                 <file_hider>5.0</file_hider>
             </defensive>
@@ -113,12 +113,12 @@ and open the template in the editor.
         </bank_account>
         <software>
             <offensive>
-                <firewall>0.6</firewall>
                 <waterwall>0.7</waterwall>
                 <pass_breaker>0.3</pass_breaker>
                 <DDoS_remote>0.0</DDoS_remote>
             </offensive>
             <defensive>
+                <firewall>0.6</firewall>
                 <ativirus>1.1</ativirus>
                 <file_hider>0.0</file_hider>
             </defensive>
@@ -159,12 +159,12 @@ and open the template in the editor.
         </bank_account>
         <software>
             <offensive>
-                <firewall>0.4</firewall>
                 <waterwall>0.4</waterwall>
                 <pass_breaker>0.</pass_breaker>
                 <DDoS_remote>0.0</DDoS_remote>
             </offensive>
             <defensive>
+                <firewall>0.4</firewall>
                 <ativirus>0.</ativirus>
                 <file_hider>0.0</file_hider>
             </defensive>
@@ -203,12 +203,12 @@ and open the template in the editor.
         </bank_account>
         <software>
             <offensive>
-                <firewall>1.6</firewall>
                 <waterwall>1.6</waterwall>
                 <pass_breaker>2.6</pass_breaker>
                 <DDoS_remote>0.6</DDoS_remote>
             </offensive>
             <defensive>
+                <firewall>1.6</firewall>
                 <ativirus>1.6</ativirus>
                 <file_hider>5.0</file_hider>
             </defensive>

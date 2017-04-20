@@ -6,26 +6,26 @@
                 <xs:element name="profil" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="jmeno_savu">
+                            <xs:element name="jmeno_savu" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="xs:string">
-                                            <xs:attribute name="pozice" type="xs:int"/>
-                                            <xs:attribute name="ip" type="xs:string"/>
+                                            <xs:attribute name="pozice" type="xs:int" use="required"/>
+                                            <xs:attribute name="ip" type="xs:string" use="required"/>
                                         </xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="bank_account">
+                            <xs:element name="bank_account" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="account" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
-                                                        <xs:attribute name="bank_ip" type="xs:string"/>
-                                                        <xs:attribute name="number" type="xs:int"/>
-                                                        <xs:attribute name="money" type="xs:int"/>
+                                                        <xs:attribute name="bank_ip" type="xs:string" use="required"/>
+                                                        <xs:attribute name="number" type="xs:int" use="required"/>
+                                                        <xs:attribute name="money" type="xs:int" use="required"/>
                                                     </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
@@ -33,10 +33,10 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="software">
+                            <xs:element name="software" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="offensive">
+                                        <xs:element name="offensive" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="waterwall" type="xs:double"/>
@@ -45,7 +45,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="defensive">
+                                        <xs:element name="defensive" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="firewall" type="xs:double"/>
@@ -54,7 +54,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="virus">
+                                        <xs:element name="virus" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="spam" type="xs:double"/>
@@ -64,7 +64,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="money_maker">
+                                        <xs:element name="money_maker" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="mailer" type="xs:double"/>
@@ -73,7 +73,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="utility">
+                                        <xs:element name="utility" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="file_seeker" type="xs:double"/>
@@ -86,10 +86,10 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="hardware">
+                            <xs:element name="hardware" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="cpu">
+                                        <xs:element name="cpu" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
@@ -98,7 +98,7 @@
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="modem">
+                                        <xs:element name="modem" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
@@ -107,7 +107,7 @@
                                                 </xs:simpleContent>            
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="harddrive">
+                                        <xs:element name="harddrive" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
@@ -116,7 +116,7 @@
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="extern_hdd">
+                                        <xs:element name="extern_hdd" minOccurs="1" maxOccurs="1">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
@@ -128,17 +128,17 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="hacked_ips">
+                            <xs:element name="hacked_ips" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="slave" maxOccurs="unbounded">
+                                        <xs:element name="slave" maxOccurs="unbounded" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
                                                         <xs:attribute name="name" type="xs:string"/>
-                                                        <xs:attribute name="spam" type="xs:string"/>
-                                                        <xs:attribute name="warez" type="xs:string"/>
-                                                        <xs:attribute name="DDoS" type="xs:string"/>
+                                                        <xs:attribute name="spam" type="xs:boolean"/>
+                                                        <xs:attribute name="warez" type="xs:boolean"/>
+                                                        <xs:attribute name="DDoS" type="xs:boolean"/>
                                                         <xs:attribute name="assigned" type="xs:string"/>
                                                         <xs:attribute name="ip" type="xs:string"/>
                                                     </xs:extension>
